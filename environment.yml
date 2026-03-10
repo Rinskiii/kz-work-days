@@ -1,0 +1,12 @@
+name: work_days_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  - pip:
+    - "fastapi[standard]"
+    - holidays
